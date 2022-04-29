@@ -1,10 +1,45 @@
-
+body, .card, a{
+    background-color: #2E282A;
+    text-decoration: #2EBFA5;
+    color: #2EBFA5;
+}
+header{
+    box-shadow:1px 4px 4px black ;
+    margin-bottom: 80px;
+}
+.navbar-toggler-icon{
+    background-color: #2EBFA5;
+}
+h1, .nav-link{
+    color: #2EBFA5 ;
+}
+.navbar-brand{
+    font-family: 'Life Savers', cursive;
+    font-size: 1.125rem;
+}
+h1{
+    font-family: 'Exo', sans-serif;
+    font-size: 1.25rem;
+}
 p{
     font-family: 'Khula', sans-serif;
 }
-.navbar{
-    font-family: 'Life Savers', cursive;
+.Apropos{
+    padding-bottom: 60px;
 }
-.namePortfolio{
-    font-family: 'Exo', sans-serif;
+.card{
+    padding: 10px;
+    border: solid 3px ;
+    border-color:#E1CE7A ;
+    border-radius: 28px ;
+    box-shadow: 5px 6px 4px black ;
+    width: 25rem;
+    height: auto;
+}
+.card-img-top{
+    width: 12rem;
+}
+.moi{
+    width: 15rem;
+    clip-path: ellipse(50% 50%);
 }
